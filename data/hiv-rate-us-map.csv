@@ -1,53 +1,52 @@
 ﻿state,rate,fips
-Alabama,16.3,US1
-Alaska,6.1,US2
-Arizona,12.6,US4
-Arkansas,12.5,US5
-California,15.6,US6
-Colorado,9.2,US8
-Connecticut,8.5,US9
+Alabama,16.3,US01
+Alaska,6.1,US02
+Arizona,12.6,US04
+Arkansas,12.5,US05
+California,15.6,US06
+Colorado,9.2,US08
+Connecticut,8.5,US09
 Delaware,13.9,US10
-District of Columbia,58.2,US12
-Florida,26.6,US13
-Georgia,29.1,US15
-Hawaii,6.5,US16
-Idaho,3.4,US17
-Illinois,13.7,US18
-Indiana,8.7,US19
-Iowa,5.1,US20
-Kansas,6.1,US21
-Kentucky,9,US22
-Louisiana,28.9,US23
-Maine,4.6,US24
-Maryland,21.8,US25
-Massachusetts,10.8,US26
-Michigan,8.9,US27
-Minnesota,6.4,US28
-Mississippi,17.4,US29
-Missouri,10,US30
-Montana,2.4,US31
-Nebraska,4.9,US32
-Nevada,20.9,US33
-New Hampshire,3.5,US34
-New Jersey,15.3,US35
-New Mexico,8,US36
-New York,16.8,US37
-North Carolina,16.3,US38
-North Dakota,7.2,US39
-Ohio,10,US40
-Oklahoma,9.1,US41
-Oregon,6.4,US42
-Pennsylvania,10.4,US44
-Puerto Rico,18.2,US45
-Rhode Island,7.6,US46
-South Carolina,17.8,US47
-South Dakota,5.7,US48
-Tennessee,12.7,US49
-Texas,19.9,US50
-Utah,5.8,US51
-Vermont,0.9,US53
-Virginia,12.8,US54
-Washington,7,US55
-West Virginia,4.3,US56
-Wisconsin,4.7,US23
-Wyoming,4.3,US33
+District of Columbia,58.2,US11
+Florida,26.6,US12
+Georgia,29.1,US13
+Hawaii,6.5,US15
+Idaho,3.4,US16
+Illinois,13.7,US17
+Indiana,8.7,US18
+Iowa,5.1,US19
+Kansas,6.1,US20
+Kentucky,9,US21
+Louisiana,28.9,US22
+Maine,4.6,US23
+Maryland,21.8,US24
+Massachusetts,10.8,US25
+Michigan,8.9,US26
+Minnesota,6.4,US27
+Mississippi,17.4,US28
+Missouri,10,US29
+Montana,2.4,US30
+Nebraska,4.9,US31
+Nevada,20.9,US32
+New Hampshire,3.5,US33
+New Jersey,15.3,US34
+New Mexico,8,US35
+New York,16.8,US36
+North Carolina,16.3,US37
+North Dakota,7.2,US38
+Ohio,10,US39
+Oklahoma,9.1,US40
+Oregon,6.4,US41
+Pennsylvania,10.4,US42
+Rhode Island,7.6,US44
+South Carolina,17.8,US45
+South Dakota,5.7,US46
+Tennessee,12.7,US47
+Texas,19.9,US48
+Utah,5.8,US49
+Vermont,0.9,US50
+Virginia,12.8,US51
+Washington,7,US53
+West Virginia,4.3,US54
+Wisconsin,4.7,US55
+Wyoming,4.3,US56

@@ -40,7 +40,7 @@
 var map = d3.choropleth()
     .geofile('data/d3-geomap/topojson/countries/USA.json')
     .projection(d3.geoAlbersUsa)
-    .column('2012')
+    .column('rate')
     .unitId('fips')
     .scale(1000)
     .legend(true);

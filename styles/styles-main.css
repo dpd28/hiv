@@ -1,5 +1,6 @@
 body {
-    font-style:
+    font-size: 1.3rem;
+    line-height: 1.7;
 
 }
 
@@ -7,8 +8,6 @@ body {
     width: 1152px;
     margin: auto;
 }
-
-section {}
 
 div.text {
     width: 722px;
