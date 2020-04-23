@@ -1,71 +1,73 @@
-﻿Category,year,rate
+﻿name,year,rate
 Male Black/African American Male-to-male sexual contact,2008,54.32
-Male Black/African American Male-to-male sexual contact,2009,53.77
-Male Black/African American Male-to-male sexual contact,2010,52.01
-Male Black/African American Male-to-male sexual contact,2011,45.57
-Male Black/African American Male-to-male sexual contact,2012,50.59
-Male Black/African American Male-to-male sexual contact,2013,49.89
-Male Black/African American Male-to-male sexual contact,2014,51.8
-Male Black/African American Male-to-male sexual contact,2015,52
-Male Black/African American Male-to-male sexual contact,2016,50.96
-Male Black/African American Male-to-male sexual contact,2017,49.53
 Male Black/African American Heterosexual contact,2008,17.63
-Male Black/African American Heterosexual contact,2009,15.75
-Male Black/African American Heterosexual contact,2010,14.33
-Male Black/African American Heterosexual contact,2011,13.28
-Male Black/African American Heterosexual contact,2012,12.11
-Male Black/African American Heterosexual contact,2013,10.92
-Male Black/African American Heterosexual contact,2014,10.63
-Male Black/African American Heterosexual contact,2015,10.87
-Male Black/African American Heterosexual contact,2016,10.35
-Male Black/African American Heterosexual contact,2017,8.67
 Male Hispanic/Latino Male-to-male sexual contact,2008,25.35
-Male Hispanic/Latino Male-to-male sexual contact,2009,24.51
-Male Hispanic/Latino Male-to-male sexual contact,2010,23.98
-Male Hispanic/Latino Male-to-male sexual contact,2011,23.74
-Male Hispanic/Latino Male-to-male sexual contact,2012,24.63
-Male Hispanic/Latino Male-to-male sexual contact,2013,23.67
-Male Hispanic/Latino Male-to-male sexual contact,2014,25.17
-Male Hispanic/Latino Male-to-male sexual contact,2015,25.41
-Male Hispanic/Latino Male-to-male sexual contact,2016,25.69
-Male Hispanic/Latino Male-to-male sexual contact,2017,24.25
 Male White Male-to-male sexual contact,2008,9.28
-Male White Male-to-male sexual contact,2009,8.98
-Male White Male-to-male sexual contact,2010,8.8
-Male White Male-to-male sexual contact,2011,8.48
-Male White Male-to-male sexual contact,2012,8.45
-Male White Male-to-male sexual contact,2013,8.08
-Male White Male-to-male sexual contact,2014,7.97
-Male White Male-to-male sexual contact,2015,7.58
-Male White Male-to-male sexual contact,2016,7.28
-Male White Male-to-male sexual contact,2017,7.18
 Female Black/African American Heterosexual contact,2008,32.15
-Female Black/African American Heterosexual contact,2009,28.48
-Female Black/African American Heterosexual contact,2010,26
-Female Black/African American Heterosexual contact,2011,23.96
-Female Black/African American Heterosexual contact,2012,22.5
-Female Black/African American Heterosexual contact,2013,20.57
-Female Black/African American Heterosexual contact,2014,19.95
-Female Black/African American Heterosexual contact,2015,19.16
-Female Black/African American Heterosexual contact,2016,19.46
-Female Black/African American Heterosexual contact,2017,18.56
 Female Hispanic/Latino Heterosexual contact,2008,6.11
-Female Hispanic/Latino Heterosexual contact,2009,5.61
-Female Hispanic/Latino Heterosexual contact,2010,5.06
-Female Hispanic/Latino Heterosexual contact,2011,4.47
-Female Hispanic/Latino Heterosexual contact,2012,3.91
-Female Hispanic/Latino Heterosexual contact,2013,3.87
-Female Hispanic/Latino Heterosexual contact,2014,3.89
-Female Hispanic/Latino Heterosexual contact,2015,3.63
-Female Hispanic/Latino Heterosexual contact,2016,3.58
-Female Hispanic/Latino Heterosexual contact,2017,3.36
 Female White Heterosexual contact,2008,1.28
+Male Black/African American Male-to-male sexual contact,2009,53.77
+Male Black/African American Heterosexual contact,2009,15.75
+Male Hispanic/Latino Male-to-male sexual contact,2009,24.51
+Male White Male-to-male sexual contact,2009,8.98
+Female Black/African American Heterosexual contact,2009,28.48
+Female Hispanic/Latino Heterosexual contact,2009,5.61
 Female White Heterosexual contact,2009,1.1
+Male Black/African American Male-to-male sexual contact,2010,52.01
+Male Black/African American Heterosexual contact,2010,14.33
+Male Hispanic/Latino Male-to-male sexual contact,2010,23.98
+Male White Male-to-male sexual contact,2010,8.8
+Female Black/African American Heterosexual contact,2010,26
+Female Hispanic/Latino Heterosexual contact,2010,5.06
 Female White Heterosexual contact,2010,1.05
+Male Black/African American Male-to-male sexual contact,2011,45.57
+Male Black/African American Heterosexual contact,2011,13.28
+Male Hispanic/Latino Male-to-male sexual contact,2011,23.74
+Male White Male-to-male sexual contact,2011,8.48
+Female Black/African American Heterosexual contact,2011,23.96
+Female Hispanic/Latino Heterosexual contact,2011,4.47
 Female White Heterosexual contact,2011,1
+Male Black/African American Male-to-male sexual contact,2012,50.59
+Male Black/African American Heterosexual contact,2012,12.11
+Male Hispanic/Latino Male-to-male sexual contact,2012,24.63
+Male White Male-to-male sexual contact,2012,8.45
+Female Black/African American Heterosexual contact,2012,22.5
+Female Hispanic/Latino Heterosexual contact,2012,3.91
 Female White Heterosexual contact,2012,0.96
+Male Black/African American Male-to-male sexual contact,2013,49.89
+Male Black/African American Heterosexual contact,2013,10.92
+Male Hispanic/Latino Male-to-male sexual contact,2013,23.67
+Male White Male-to-male sexual contact,2013,8.08
+Female Black/African American Heterosexual contact,2013,20.57
+Female Hispanic/Latino Heterosexual contact,2013,3.87
 Female White Heterosexual contact,2013,0.91
+Male Black/African American Male-to-male sexual contact,2014,51.8
+Male Black/African American Heterosexual contact,2014,10.63
+Male Hispanic/Latino Male-to-male sexual contact,2014,25.17
+Male White Male-to-male sexual contact,2014,7.97
+Female Black/African American Heterosexual contact,2014,19.95
+Female Hispanic/Latino Heterosexual contact,2014,3.89
 Female White Heterosexual contact,2014,0.97
+Male Black/African American Male-to-male sexual contact,2015,52
+Male Black/African American Heterosexual contact,2015,10.87
+Male Hispanic/Latino Male-to-male sexual contact,2015,25.41
+Male White Male-to-male sexual contact,2015,7.58
+Female Black/African American Heterosexual contact,2015,19.16
+Female Hispanic/Latino Heterosexual contact,2015,3.63
 Female White Heterosexual contact,2015,0.94
+Male Black/African American Male-to-male sexual contact,2016,50.96
+Male Black/African American Heterosexual contact,2016,10.35
+Male Hispanic/Latino Male-to-male sexual contact,2016,25.69
+Male White Male-to-male sexual contact,2016,7.28
+Female Black/African American Heterosexual contact,2016,19.46
+Female Hispanic/Latino Heterosexual contact,2016,3.58
 Female White Heterosexual contact,2016,1.02
+Male Black/African American Male-to-male sexual contact,2017,49.53
+Male Black/African American Heterosexual contact,2017,8.67
+Male Hispanic/Latino Male-to-male sexual contact,2017,24.25
+Male White Male-to-male sexual contact,2017,7.18
+Female Black/African American Heterosexual contact,2017,18.56
+Female Hispanic/Latino Heterosexual contact,2017,3.36
 Female White Heterosexual contact,2017,1
+,,
+,,

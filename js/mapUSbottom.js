@@ -1,6 +1,6 @@
 function mapBottom() { // object has curly braces, brackets are arrays
 var map = d3.choropleth()
- //   .geofile('data/d3-geomap/topojson/countries/USA.json')
+        .geofile('data/d3-geomap/topojson/countries/USA.json')
     .projection(d3.geoAlbersUsa)
     .column('status')
     .unitId('fips')

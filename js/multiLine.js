@@ -2,7 +2,7 @@ function multiLine() {
   // set the dimensions and margins of the graph
   var margin = {top: 10, right: 30, bottom: 30, left: 30},
       width = 1072 - margin.left - margin.right,
-      height = 400 - margin.top - margin.bottom;
+      height = 800 - margin.top - margin.bottom;
   
   
   // append the svg object to the body of the page
@@ -16,8 +16,8 @@ function multiLine() {
   
   
   //Read the data
-  d3.csv("data/hiv-transmission-types.csv", function(data) {
-  
+  d3.csv("data/hiv-transmission-types-tall.csv")
+  .then(function(data) {
     // group the data: Draw one line per group
     var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
       .key(function(d) {return d.name;})
@@ -26,7 +26,10 @@ function multiLine() {
   
     // Add X axis
     var x = d3.scaleLinear()
-      .domain(d3.extent(data, function(d) { return d.year; }))
+.domain(d3.extent(data, function (d) {
+return +d.year;
+}))
+      // .domain(d3.extent(data, function(d) { return +d.year; }))
       .range([ 0, width ]);
       svg.append("g")
       .attr( "class", "x_axis" )
@@ -55,7 +58,7 @@ function multiLine() {
     var res = sumstat.map(function(d){ return d.key }) // list of group names
     var color = d3.scaleOrdinal()
       .domain(res)
-      .range(['#d78d34','#d69a55','#d3ab7c','#08519c','#2171b5','#4292c6','#6baed6' ])
+      .range(['#d78d34','#d69a55','#d3ab7c','#08519c','#2171b5','#4292c6','#6baed6'])
 
     // Draw the line
     svg.selectAll(".line")
