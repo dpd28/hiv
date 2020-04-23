@@ -1,0 +1,166 @@
+﻿Group,Year,Demographic,Cases,Rate per 100000
+All,2008,All,"47,748",19
+All,2009,All,"45,211",17.9
+All,2010,All,"43,339",16.9
+All,2011,All,"41,623",16.1
+All,2012,All,"40,939",15.7
+All,2013,All,"39,355",14.9
+All,2014,All,"40,047",15.1
+All,2015,All,"39,824",14.8
+All,2016,All,"39,459",14.6
+All,2017,All,"38,226",14
+All,2018,All,"37,286",13.6
+Age,2008,13-24,"8,604",16.8
+Age,2009,13-24,"8,865",17.3
+Age,2010,13-24,"9,149",17.6
+Age,2011,13-24,"9,104",17.5
+Age,2012,13-24,"9,143",17.5
+Age,2013,13-24,"8,784",16.8
+Age,2014,13-24,"9,129",17.4
+Age,2015,13-24,"9,041",17.4
+Age,2016,13-24,"8,593",16.6
+Age,2017,13-24,"8,090",15.7
+Age,2018,13-24,"7,734",15.1
+Age,2008,25-34,"12,620",30.8
+Age,2009,25-34,"12,083",29.1
+Age,2010,25-34,"11,769",28.6
+Age,2011,25-34,"11,576",27.7
+Age,2012,25-34,"11,917",28.2
+Age,2013,25-34,"11,855",27.7
+Age,2014,25-34,"12,638",29.1
+Age,2015,25-34,"13,053",29.6
+Age,2016,25-34,"13,592",30.4
+Age,2017,25-34,"13,305",29.3
+Age,2018,25-34,"13,322",29.2
+Age,2008,35-44,"12,782",30.3
+Age,2009,35-44,"11,514",27.7
+Age,2010,35-44,"10,220",24.9
+Age,2011,35-44,"9,206",22.6
+Age,2012,35-44,"8,609",21.2
+Age,2013,35-44,"7,889",19.5
+Age,2014,35-44,"8,034",19.8
+Age,2015,35-44,"7,680",19
+Age,2016,35-44,"7,488",18.5
+Age,2017,35-44,"7,310",17.9
+Age,2018,35-44,"7,158",17.3
+Age,2008,45-54,"9,518",21.5
+Age,2009,45-54,"8,778",19.7
+Age,2010,45-54,"8,287",18.4
+Age,2011,45-54,"7,885",17.6
+Age,2012,45-54,"7,477",16.9
+Age,2013,45-54,"6,891",15.7
+Age,2014,45-54,"6,509",15
+Age,2015,45-54,"6,325",14.7
+Age,2016,45-54,"5,977",14
+Age,2017,45-54,"5,641",13.3
+Age,2018,45-54,"5,282",12.7
+Age,2008,55+,"4,224",5.8
+Age,2009,55+,"3,971",5.3
+Age,2010,55+,"3,914",5.1
+Age,2011,55+,"3,852",4.8
+Age,2012,55+,"3,793",4.6
+Age,2013,55+,"3,936",4.7
+Age,2014,55+,"3,737",4.3
+Age,2015,55+,"3,725",4.2
+Age,2016,55+,"3,809",4.2
+Age,2017,55+,"3,836",4.1
+Age,2018,55+,"3,790",4
+Race,2008,American Indian/Alaska Native,151,8.1
+Race,2009,American Indian/Alaska Native,147,7.8
+Race,2010,American Indian/Alaska Native,157,8.7
+Race,2011,American Indian/Alaska Native,138,7.5
+Race,2012,American Indian/Alaska Native,172,9.3
+Race,2013,American Indian/Alaska Native,147,7.8
+Race,2014,American Indian/Alaska Native,179,9.4
+Race,2015,American Indian/Alaska Native,187,9.7
+Race,2016,American Indian/Alaska Native,230,11.9
+Race,2017,American Indian/Alaska Native,212,10.8
+Race,2018,American Indian/Alaska Native,189,9.6
+Race,2008,Asian,682,6.2
+Race,2009,Asian,664,5.9
+Race,2010,Asian,678,5.5
+Race,2011,Asian,729,5.7
+Race,2012,Asian,783,5.9
+Race,2013,Asian,776,5.6
+Race,2014,Asian,913,6.4
+Race,2015,Asian,931,6.3
+Race,2016,Asian,962,6.3
+Race,2017,Asian,939,6
+Race,2018,Asian,869,5.4
+Race,2008,Black/African American,"22,150",73.9
+Race,2009,Black/African American,"20,762",68.5
+Race,2010,Black/African American,"19,739",64.3
+Race,2011,Black/African American,"18,772",60.3
+Race,2012,Black/African American,"18,029",57.2
+Race,2013,Black/African American,"17,206",53.9
+Race,2014,Black/African American,"17,422",53.9
+Race,2015,Black/African American,"17,365",53.1
+Race,2016,Black/African American,"17,188",52
+Race,2017,Black/African American,"16,630",49.8
+Race,2018,Black/African American,"16,008",47.5
+Race,2008,Hispanic/Latino,"9,804",28.3
+Race,2009,Hispanic/Latino,"9,522",26.7
+Race,2010,Hispanic/Latino,"9,236",24.3
+Race,2011,Hispanic/Latino,"9,087",23.3
+Race,2012,Hispanic/Latino,"9,180",22.9
+Race,2013,Hispanic/Latino,"8,976",21.9
+Race,2014,Hispanic/Latino,"9,531",22.7
+Race,2015,Hispanic/Latino,"9,630",22.3
+Race,2016,Hispanic/Latino,"9,813",22.2
+Race,2017,Hispanic/Latino,"9,442",20.8
+Race,2018,Hispanic/Latino,"9,664",20.9
+Race,2008,Multiple races,"2,105",74.3
+Race,2009,Multiple races,"2,001",68.5
+Race,2010,Multiple races,"1,896",53.2
+Race,2011,Multiple races,"1,742",47.2
+Race,2012,Multiple races,"1,715",44.8
+Race,2013,Multiple races,"1,606",40.5
+Race,2014,Multiple races,"1,407",34.3
+Race,2015,Multiple races,"1,253",29.5
+Race,2016,Multiple races,"1,125",25.6
+Race,2017,Multiple races,865,19
+Race,2018,Multiple races,881,18.7
+Race,2008,Native Hawaiian/Other Pacific Islander,52,14.9
+Race,2009,Native Hawaiian/Other Pacific Islander,49,13.7
+Race,2010,Native Hawaiian/Other Pacific Islander,49,12.3
+Race,2011,Native Hawaiian/Other Pacific Islander,55,13.4
+Race,2012,Native Hawaiian/Other Pacific Islander,51,12.2
+Race,2013,Native Hawaiian/Other Pacific Islander,47,10.9
+Race,2014,Native Hawaiian/Other Pacific Islander,43,9.8
+Race,2015,Native Hawaiian/Other Pacific Islander,74,16.4
+Race,2016,Native Hawaiian/Other Pacific Islander,41,8.9
+Race,2017,Native Hawaiian/Other Pacific Islander,56,11.9
+Race,2018,Native Hawaiian/Other Pacific Islander,69,14.4
+Race,2008,White,"12,804",7.5
+Race,2009,White,"12,066",7.1
+Race,2010,White,"11,584",6.8
+Race,2011,White,"11,100",6.5
+Race,2012,White,"11,009",6.5
+Race,2013,White,"10,597",6.2
+Race,2014,White,"10,552",6.2
+Race,2015,White,"10,384",6.1
+Race,2016,White,"10,100",5.9
+Race,2017,White,"10,038",5.9
+Race,2018,White,"9,606",5.6
+Sex,2008,Female,"11,517",9
+Sex,2009,Female,"10,305",8
+Sex,2010,Female,"9,518",7.2
+Sex,2011,Female,"8,770",6.6
+Sex,2012,Female,"8,228",6.2
+Sex,2013,Female,"7,648",5.7
+Sex,2014,Female,"7,600",5.6
+Sex,2015,Female,"7,400",5.4
+Sex,2016,Female,"7,528",5.4
+Sex,2017,Female,"7,312",5.2
+Sex,2018,Female,"7,139",5.1
+Sex,2008,Male,"36,231",29.5
+Sex,2009,Male,"34,906",28.2
+Sex,2010,Male,"33,821",27
+Sex,2011,Male,"32,853",26
+Sex,2012,Male,"32,711",25.7
+Sex,2013,Male,"31,707",24.6
+Sex,2014,Male,"32,447",25
+Sex,2015,Male,"32,424",24.7
+Sex,2016,Male,"31,931",24.1
+Sex,2017,Male,"30,870",23.1
+Sex,2018,Male,"30,147",22.5

@@ -7,27 +7,30 @@
     <title>The Changing Landscape of HIV</title>
     <link rel="stylesheet" type="text/css" href="styles/styles-main.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="data/d3-geomap/d3-geomap.css" media="screen" />
-
+    <link rel="stylesheet" href="https://use.typekit.net/qau2luv.css">
 </head>
 
 <body>
     <div id="wrapper">
-        <h1>The Changing Landscape of HIV</h1>
-        <p><strong>MAP GOES HERE</strong></p>
-        <figure id="maptop"></figure>
-        <p>Human Immunodeficiency Virus (HIV) is no
-            longer the death sentence it was 20 years
-            ago. Yet for over 1 million people currently
-            living with HIV in the U.S. and the 40,000 new
-            cases each year, HIV/AIDS remains an epidemic.
-            The hardest hit region: The South. Home to a
-            third of Americans the South constitutes more
-            than 52% of new HIV infections. Today, poor
-            people of color in rural areas without healthcare
-            access or health insurance are the most
-            vulnerable. The complex mix of stigma, bigotry,
-            policy, and more cause experts to question if HIV
-            for these communities will ever be resolved.</p>
+        <header>
+            <div id="intro">
+                <h1>The Changing Landscape of HIV</h1>
+                <p class="drop">Human Immunodeficiency Virus (HIV) is no
+                    longer the death sentence it was 20 years
+                    ago. Yet for over 1 million people currently
+                    living with HIV in the U.S. and the 40,000 new
+                    cases each year, HIV/AIDS remains an epidemic.
+                    <strong>The hardest hit region</strong>: The South. Home to a
+                    third of Americans the South constitutes more
+                    than 52% of new HIV infections. Today, poor
+                    people of color in rural areas without healthcare
+                    access or health insurance are the most
+                    vulnerable. The complex mix of stigma, bigotry,
+                    policy, and more cause experts to question if HIV
+                    for these communities will ever be resolved.</p>
+            </div>
+        </header>
+        <figure class="d3-geomap" id="maptop"></figure>
         <section>
             <div class="text">
                 <h2>The Deep South is the Hardest Hit</h2>
@@ -53,7 +56,6 @@
         <div class="text">
             <h2>President Trump's Plan to Eradicate HIV by 2030: Two Policies contradict Goals</h2>
         </div>
-        <p><strong>Second Map Goes Here</strong></p>
         <div class="text">
             <p> President Trump’s 2019 State of the Union address included a plan to eradicate HIV in ten years. The
                 Department
@@ -61,20 +63,38 @@
                 District of Columbia and Puerto Rico where HIV incidences are high. Yet, in addition to the daily
                 challenges
                 facing HIV individuals, there are two significant and partisan barriers: </p>
-            <p>Dismantle the Affordable Care Act (ACA): Recently, President Trump renewed desire to dismantle the ACA,
+            <p<strong>Dismantle the Affordable Care Act (ACA)</strong>: Recently, President Trump renewed desire to
+                dismantle the ACA,
                 the
                 law
                 that would continue to provide thousands of low-income HIV individuals access to healthcare.</p>
-            <p>Medicaid Expansion: Shown below, states hit hard by HIV are primarily the same states that declined to
-                expand
-                Medicaid. Medicaid is the largest payer of HIV care. Expansion would close the gap and cover thousands.
-            </p>
+                <p><strong>Medicaid Expansion<strong>: Shown below, states hit hard by HIV are primarily the same states
+                            that declined to
+                            expand
+                            Medicaid. Medicaid is the largest payer of HIV care. Expansion would close the gap and cover
+                            thousands.
+                </p>
         </div>
-    </div>
+        <figure class="d3-geomap" id="mapbottom"></figure>
+
+        <div class="text">
+            <h3>Methodology</h3>
+            <p>Choropleth maps made possible with <a
+                    href="https://d3-geomap.github.io/map/choropleth/us-states/">geomap</a>. </p>
+        </div>
+
+    </div><!-- end wrapper -->
+    <footer>
+
+    </footer>
+    <!-- pay attention to the order of your js files-->
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="data/d3-geomap/d3-geomap.js"></script>
     <script src="https://unpkg.com/topojson@3/dist/topojson.min.js"></script>
+    <script src="data/d3-geomap/d3-geomap.js"></script>
     <script src="js/mapUStop.js"></script>
+    <script src="js/mapUSBottom.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/mapUSbottom.js"></script> -->
 
 </body>
 

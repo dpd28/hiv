@@ -249,7 +249,7 @@ function () {
   return Geomap;
 }();
 
-var D3_CHROMATIC_SCHEME_OrRd9 = ['#fff7ec', '#fee8c8', '#fdd49e', '#fdbb84', '#fc8d59', '#ef6548', '#d7301f', '#b30000', '#7f0000'];
+var D3_CHROMATIC_SCHEME_OrRd9 = ['#f7fbff', '#deebf7', '#c6dbef', '#9ecae1', '#6baed6', '#4292c6', '#2171b5', '#08519c', '#08306b'];
 var Choropleth =
 /*#__PURE__*/
 function (_Geomap) {
