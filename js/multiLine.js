@@ -1,8 +1,8 @@
 function multiLine() {
   // set the dimensions and margins of the graph
-  var margin = {top: 10, right: 30, bottom: 30, left: 30},
+  var margin = {top: 10, right: 30, bottom: 30, left: 150},
       width = 1072 - margin.left - margin.right,
-      height = 800 - margin.top - margin.bottom;
+      height = 600 - margin.top - margin.bottom;
   
   
   // append the svg object to the body of the page
@@ -26,21 +26,22 @@ function multiLine() {
   
     // Add X axis
     var x = d3.scaleLinear()
-.domain(d3.extent(data, function (d) {
-return +d.year;
-}))
+    // .domain(d3.extent(data, function (d) {
+    // return +d.year;
+    // })) // Check the CSV file for extra rows of no data
+      .domain([2008,2018])
       // .domain(d3.extent(data, function(d) { return +d.year; }))
       .range([ 0, width ]);
       svg.append("g")
-      .attr( "class", "x_axis" )
+      // .attr( "class", "x_axis" )
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x)
       .tickSize(-height, 0, 0)
       .tickFormat("")
       .tickFormat(d3.format(".0f"))) // change 1,984 to 1984
       .call(g => g.selectAll(".tick:not(:first-of-type) line")
-      // .attr("stroke-opacity", 0.3) // lightens the gridlines
-      .attr("stroke-dasharray", "2,2")) // add gridlines and make them dashed
+      .attr("stroke-opacity", 0.2) // lightens the gridlines
+      .attr("stroke-dasharray", "1,2")) // add gridlines and make them dashed
       .call(g => g.select(".domain").remove());
 
     // Add Y axis

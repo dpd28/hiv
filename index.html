@@ -38,51 +38,64 @@
                     prevention and treatment difficult.</p>
             </div>
         </section>
-        <div class="text">
-            <h2>HIV Diagnosis is Rising for Young People of color</h2>
-            <p>Historically, new HIV diagnosis rates seem to have plateaued. In 2017, rates for men remain stable (23.1)
-                and
-                rates for women have decreased (5.2) but for Black and Hispanic millennials, rates have increased.</p>
-        </div>
-        <p><strong>Heatmap goes here</strong></p>
-        <div class="text">
-            <h2>The Most Afflicted: Hispanic and African American Gay, Bisexual Males</h2>
-            <p>Medical and scientific developments in the past decade along with the passage of the ACA have contributed
-                to the declining spread of HIV in some populations; however, HIV still disproportionally aects gay
-                bisexual men of color.</p>
-        </div>
-
-        <figure id="multiLine"></figure>
-        <div class="text">
-            <h2>President Trump's Plan to Eradicate HIV by 2030: Two Policies contradict Goals</h2>
-        </div>
-        <div class="text">
-            <p> President Trump’s 2019 State of the Union address included a plan to eradicate HIV in ten years. The
-                Department
-                of Health and Human Services (HHS) has rolled out a plan that targets counties and states, including the
-                District of Columbia and Puerto Rico where HIV incidences are high. Yet, in addition to the daily
-                challenges
-                facing HIV individuals, there are two significant and partisan barriers: </p>
-            <p<strong>Dismantle the Affordable Care Act (ACA)</strong>: Recently, President Trump renewed desire to
-                dismantle the ACA,
-                the
-                law
-                that would continue to provide thousands of low-income HIV individuals access to healthcare.</p>
-                <p><strong>Medicaid Expansion<strong>: Shown below, states hit hard by HIV are primarily the same states
-                            that declined to
-                            expand
-                            Medicaid. Medicaid is the largest payer of HIV care. Expansion would close the gap and cover
-                            thousands.
+        <section>
+            <div class="text">
+                <h2>HIV Diagnosis is Rising for Young People of color</h2>
+                <p>Historically, new HIV diagnosis rates seem to have plateaued. In 2017, rates for men remain stable
+                    (23.1)
+                    and
+                    rates for women have decreased (5.2) but for Black and Hispanic millennials, rates have increased.
                 </p>
-        </div>
-        <figure class="d3-geomap" id="mapbottom"></figure>
+            </div>
+            <figure id="heatAges"></figure>
+            <figure id="heatRace"></figure>
+        </section>
+        <section>
+            <div class="text">
+                <h2>The Most Afflicted: Hispanic and African American Gay, Bisexual Males</h2>
+                <p>Medical and scientific developments in the past decade along with the passage of the ACA have
+                    contributed
+                    to the declining spread of HIV in some populations; however, HIV still disproportionally aects gay
+                    bisexual men of color.</p>
+            </div>
 
-        <div class="text">
-            <h3>Methodology</h3>
-            <p>Choropleth maps made possible with <a
-                    href="https://d3-geomap.github.io/map/choropleth/us-states/">geomap</a>. </p>
-        </div>
-
+            <figure id="multiLine"></figure>
+        </section>
+        <section>
+            <div class="text">
+                <h2>President Trump's Plan to Eradicate HIV by 2030: Two Policies contradict Goals</h2>
+            </div>
+            <div class="text">
+                <p> President Trump’s 2019 State of the Union address included a plan to eradicate HIV in ten years. The
+                    Department
+                    of Health and Human Services (HHS) has rolled out a plan that targets counties and states, including
+                    the
+                    District of Columbia and Puerto Rico where HIV incidences are high. Yet, in addition to the daily
+                    challenges
+                    facing HIV individuals, there are two significant and partisan barriers: </p>
+                <p<strong>Dismantle the Affordable Care Act (ACA)</strong>: Recently, President Trump renewed desire to
+                    dismantle the ACA,
+                    the
+                    law
+                    that would continue to provide thousands of low-income HIV individuals access to healthcare.</p>
+                    <p><strong>Medicaid Expansion<strong>: Shown below, states hit hard by HIV are primarily the same
+                                states
+                                that declined to
+                                expand
+                                Medicaid. Medicaid is the largest payer of HIV care. Expansion would close the gap and
+                                cover
+                                thousands.
+                    </p>
+            </div>
+            <figure class="d3-geomap" id="mapbottom"></figure>
+        </section>
+        <section>
+            <div class="text methodology">
+                <h3>Methodology</h3>
+                <p>Choropleth maps made possible with <a
+                        href="https://d3-geomap.github.io/map/choropleth/us-states/">geomap</a>. </p>
+            </div>
+        </section>
     </div><!-- end wrapper -->
     <footer>
 
@@ -90,14 +103,19 @@
     <!-- pay attention to the order of your js files-->
     <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
     <script src="js/d3.min.js"></script>
-    <!-- <script src="https://unpkg.com/browse/d3@5.16.0/dist/d3.min.js"></script> -->
     <script src="https://unpkg.com/topojson@3/dist/topojson.min.js"></script>
     <script src="data/d3-geomap/d3-geomap.js"></script>
     <script src="js/mapUStop.js"></script>
     <script src="js/mapUSBottom.js"></script>
+    <script src="js/heatAges.js"></script>
+    <script src="js/heatRace.js"></script>
     <script src="js/multiLine.js"></script>
     <script src="js/main.js"></script>
-    <!-- <script src="js/mapUSbottom.js"></script> -->
+    <script src="js/smartquotes.js"></script>
+    <script>
+        smartquotes()
+    </script>
+
 
 </body>
 

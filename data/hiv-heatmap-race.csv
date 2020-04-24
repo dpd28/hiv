@@ -1,0 +1,78 @@
+﻿group,year,demo,rate,cases
+Race,2008,American Indian/Alaska Native,8.1,151
+Race,2009,American Indian/Alaska Native,7.8,147
+Race,2010,American Indian/Alaska Native,8.7,157
+Race,2011,American Indian/Alaska Native,7.5,138
+Race,2012,American Indian/Alaska Native,9.3,172
+Race,2013,American Indian/Alaska Native,7.8,147
+Race,2014,American Indian/Alaska Native,9.4,179
+Race,2015,American Indian/Alaska Native,9.7,187
+Race,2016,American Indian/Alaska Native,11.9,230
+Race,2017,American Indian/Alaska Native,10.8,212
+Race,2018,American Indian/Alaska Native,9.6,189
+Race,2008,Asian,6.2,682
+Race,2009,Asian,5.9,664
+Race,2010,Asian,5.5,678
+Race,2011,Asian,5.7,729
+Race,2012,Asian,5.9,783
+Race,2013,Asian,5.6,776
+Race,2014,Asian,6.4,913
+Race,2015,Asian,6.3,931
+Race,2016,Asian,6.3,962
+Race,2017,Asian,6,939
+Race,2018,Asian,5.4,869
+Race,2008,Black/African American,73.9,"22,150"
+Race,2009,Black/African American,68.5,"20,762"
+Race,2010,Black/African American,64.3,"19,739"
+Race,2011,Black/African American,60.3,"18,772"
+Race,2012,Black/African American,57.2,"18,029"
+Race,2013,Black/African American,53.9,"17,206"
+Race,2014,Black/African American,53.9,"17,422"
+Race,2015,Black/African American,53.1,"17,365"
+Race,2016,Black/African American,52,"17,188"
+Race,2017,Black/African American,49.8,"16,630"
+Race,2018,Black/African American,47.5,"16,008"
+Race,2008,Hispanic/Latino,28.3,"9,804"
+Race,2009,Hispanic/Latino,26.7,"9,522"
+Race,2010,Hispanic/Latino,24.3,"9,236"
+Race,2011,Hispanic/Latino,23.3,"9,087"
+Race,2012,Hispanic/Latino,22.9,"9,180"
+Race,2013,Hispanic/Latino,21.9,"8,976"
+Race,2014,Hispanic/Latino,22.7,"9,531"
+Race,2015,Hispanic/Latino,22.3,"9,630"
+Race,2016,Hispanic/Latino,22.2,"9,813"
+Race,2017,Hispanic/Latino,20.8,"9,442"
+Race,2018,Hispanic/Latino,20.9,"9,664"
+Race,2008,Multiple races,74.3,"2,105"
+Race,2009,Multiple races,68.5,"2,001"
+Race,2010,Multiple races,53.2,"1,896"
+Race,2011,Multiple races,47.2,"1,742"
+Race,2012,Multiple races,44.8,"1,715"
+Race,2013,Multiple races,40.5,"1,606"
+Race,2014,Multiple races,34.3,"1,407"
+Race,2015,Multiple races,29.5,"1,253"
+Race,2016,Multiple races,25.6,"1,125"
+Race,2017,Multiple races,19,865
+Race,2018,Multiple races,18.7,881
+Race,2008,Native Hawaiian/Other Pacific Islander,14.9,52
+Race,2009,Native Hawaiian/Other Pacific Islander,13.7,49
+Race,2010,Native Hawaiian/Other Pacific Islander,12.3,49
+Race,2011,Native Hawaiian/Other Pacific Islander,13.4,55
+Race,2012,Native Hawaiian/Other Pacific Islander,12.2,51
+Race,2013,Native Hawaiian/Other Pacific Islander,10.9,47
+Race,2014,Native Hawaiian/Other Pacific Islander,9.8,43
+Race,2015,Native Hawaiian/Other Pacific Islander,16.4,74
+Race,2016,Native Hawaiian/Other Pacific Islander,8.9,41
+Race,2017,Native Hawaiian/Other Pacific Islander,11.9,56
+Race,2018,Native Hawaiian/Other Pacific Islander,14.4,69
+Race,2008,White,7.5,"12,804"
+Race,2009,White,7.1,"12,066"
+Race,2010,White,6.8,"11,584"
+Race,2011,White,6.5,"11,100"
+Race,2012,White,6.5,"11,009"
+Race,2013,White,6.2,"10,597"
+Race,2014,White,6.2,"10,552"
+Race,2015,White,6.1,"10,384"
+Race,2016,White,5.9,"10,100"
+Race,2017,White,5.9,"10,038"
+Race,2018,White,5.6,"9,606"
