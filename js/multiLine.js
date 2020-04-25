@@ -1,8 +1,8 @@
 function multiLine() {
   // set the dimensions and margins of the graph
-  var margin = {top: 10, right: 30, bottom: 30, left: 150},
+  var margin = {top: 10, right: 150, bottom: 30, left: 150},
       width = 1072 - margin.left - margin.right,
-      height = 600 - margin.top - margin.bottom;
+      height = 550 - margin.top - margin.bottom;
   
   
   // append the svg object to the body of the page
@@ -31,30 +31,88 @@ function multiLine() {
     // })) // Check the CSV file for extra rows of no data
       .domain([2008,2018])
       // .domain(d3.extent(data, function(d) { return +d.year; }))
-      .range([ 0, width ]);
+      .range([0, width ]); // adjust this to move axis starting point
       svg.append("g")
-      // .attr( "class", "x_axis" )
+      .attr( "class", "x_axis" )
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x)
+      .tickPadding([10]) // moves axis labels away from ticks and lines
       .tickSize(-height, 0, 0)
       .tickFormat("")
       .tickFormat(d3.format(".0f"))) // change 1,984 to 1984
-      .call(g => g.selectAll(".tick:not(:first-of-type) line")
-      .attr("stroke-opacity", 0.2) // lightens the gridlines
-      .attr("stroke-dasharray", "1,2")) // add gridlines and make them dashed
-      .call(g => g.select(".domain").remove());
-
+      // .call(g => g.selectAll(".tick:not(:first-of-type) line")
+      .attr("stroke-opacity", 0.1) // lightens the gridlines
+      .attr("stroke-dasharray", "1,2"); // add gridlines and make them dashed
+    // .call(g => g.select(".domain").remove());
+console.log(name);
     // Add Y axis
     var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return +d.rate; })])
+      // .domain([0, d3.max(data, function(d) { return +d.rate; })])
+      .domain([0,60])
       .range([ height, 0 ]);
       svg.append("g")
       .attr( "class", "y_axis" )
-      .call(d3.axisLeft(y)
+      .call(d3.axisLeft(y).tickSize(0)
       .tickFormat(d3.format("0"))) // change 7.0 to whole numbers
       .call(g => g.select(".domain").remove()); // removes the line for axis
   
-  
+      // add labels for each line
+      svg.append("text")
+      .attr("class", "labels")
+      .attr("transform", "translate("+(width+3)+","+y(data[0].rate)+")")
+      .attr("dy", "3em")
+      .attr("text-anchor", "start")
+      .style("fill", "black")
+      .text("Male Black/African American Male-to-male sexual contact");
+
+      svg.append("text")
+      .attr("class", "labels")
+      .attr("transform", "translate("+(width+3)+","+y(data[1].rate)+")")
+      .attr("dy", ".35em")
+      .attr("text-anchor", "start")
+      .style("fill", "red")
+      .text("Male Black/African American Heterosexual contact");
+
+      svg.append("text")
+      .attr("class", "labels")
+      .attr("transform", "translate("+(width+3)+","+y(data[2].rate)+")")
+      .attr("dy", ".35em")
+      .attr("text-anchor", "start")
+      .style("fill", "red")
+      .text("Male Hispanic/Latino Male-to-male sexual contact");
+
+      svg.append("text")
+      .attr("class", "labels")
+      .attr("transform", "translate("+(width+3)+","+y(data[3].rate)+")")
+      .attr("dy", ".35em")
+      .attr("text-anchor", "start")
+      .style("fill", "red")
+      .text("Male White Male-to-male sexual contact");
+
+      svg.append("text")
+      .attr("class", "labels")
+      .attr("transform", "translate("+(width+3)+","+y(data[4].rate)+")")
+      .attr("dy", ".35em")
+      .attr("text-anchor", "start")
+      .style("fill", "black")
+      .text("Female Black/African American Heterosexual contact");
+
+      svg.append("text")
+      .attr("class", "labels")
+      .attr("transform", "translate("+(width+3)+","+y(data[5].rate)+")")
+      .attr("dy", ".35em")
+      .attr("text-anchor", "start")
+      .style("fill", "red")
+      .text("Female Hispanic/Latino Heterosexual contact");
+
+      svg.append("text")
+      .attr("class", "labels")
+      .attr("transform", "translate("+(width+3)+","+y(data[6].rate)+")")
+      .attr("dy", ".35em")
+      .attr("text-anchor", "start")
+      .style("fill", "red")
+      .text("Female White Heterosexual contact");
+
     // color palette
     var res = sumstat.map(function(d){ return d.key }) // list of group names
     var color = d3.scaleOrdinal()

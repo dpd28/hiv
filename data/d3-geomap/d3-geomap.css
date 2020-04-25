@@ -11,14 +11,14 @@
 .d3-geomap .unit {
   cursor: pointer;
   fill: #ccc;
-  stroke: #000;
+  stroke: rgb(223, 223, 223);
   stroke-width: .4px;
 }
 
-.d3-geomap .legend-bg {
+/* .d3-geomap .legend-bg {
   fill: #fff;
   fill-opacity: .8;
-}
+} */
 
 .d3-geomap .legend-bar {
   stroke: #333;

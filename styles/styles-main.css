@@ -14,8 +14,8 @@ body {
     font-family: acumin-pro, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 1.2rem;
-    line-height: 1.7;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
 
 /* ----------------------
@@ -56,8 +56,9 @@ STYLE THE CONTAINERS
     margin: auto;
 }
 
+header .text,
 div.text {
-    width: 722px;
+    width: 50%;
     margin: auto;
 }
 
@@ -79,7 +80,7 @@ header #intro {
     margin: auto;
 }
 
-header #intro p.drop:first-letter {
+header .text p.drop:first-letter {
     font-family: acumin-pro-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -91,8 +92,27 @@ header #intro p.drop:first-letter {
     color: #111111;
 }
 
-.x_axis {
+/* .x_axis line {
+    stroke: #000000;
+    opacity: 1;
+} */
+
+.x_axis line {
+    stroke: rgb(160, 160, 160);
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+
+.x_axis path {
+    stroke-width: 0;
+}
+
+.y_axis text {
     display: none;
+}
+
+.labels {
+    font-size: 0.7rem;
 }
 
 /* ----------------------
@@ -104,5 +124,5 @@ footer {
 }
 
 footer p {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
 }

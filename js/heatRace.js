@@ -1,7 +1,7 @@
 // HIV Rates by Race
 function heatRace() {
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 30, bottom: 30, left: 150},
+var margin = {top: 30, right: 150, bottom: 30, left: 150},
   width = 1072 - margin.left - margin.right,
   height = 450 - margin.top - margin.bottom;
 
@@ -21,12 +21,12 @@ var myVars = ["White", "Native Hawaiian/Other Pacific Islander", "Multiple races
 
 // Build X scales and axis:
 var x = d3.scaleBand()
-  .range([ 0, width ])
+  .range([3, width ]) // move the axis away from the chart
   .domain(myGroups)
   .padding(0.01);
 svg.append("g")
   .attr("transform", "translate(0," + height + ")")
-  .call(d3.axisBottom(x).tickSize(0)) //remove ticks
+  .call(d3.axisBottom(x).tickSize(0))//remove ticks
   .call(g => g.select(".domain").remove()); // remove x-axis line
 
 // Build X scales and axis:
@@ -34,8 +34,10 @@ var y = d3.scaleBand()
   .range([ height, 0 ])
   .domain(myVars)
   .padding(0.01);
-svg.append("g")
-  .call(d3.axisLeft(y));
+  svg.append("g")
+  .call(d3.axisLeft(y).tickSize(0))
+  .call(g => g.select(".domain").remove()); // remove x-axis line
+
 
 // Build color scale
 var myColor = d3.scaleLinear()
