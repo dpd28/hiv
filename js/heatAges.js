@@ -1,7 +1,7 @@
 function heatAges() {
 
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 200, bottom: 20, left: 200},
+var margin = {top: 70, right: 200, bottom: 20, left: 200},
   width = 1072 - margin.left - margin.right,
   height = 300 - margin.top - margin.bottom;
 
@@ -59,5 +59,75 @@ d3.csv("data/hiv-heatmap-ages.csv")
       .attr("height", y.bandwidth() )
       .style("fill", function(d) { return myColor(d.rate)} )
 
+ // ! Add a legend here - hacking
+ //Append a defs (for definition) element to your SVG
+ var defs = svg.append("defs");
+
+ //Append a linearGradient element to the defs and give it a unique id
+ var linearGradient = defs.append("linearGradient")
+     .attr("id", "linear-gradient");
+
+     //Set the color for the start (0%)
+ linearGradient.append("stop")
+ .attr("offset", "0%")
+ .attr("stop-color", "#fff"); //light blue
+
+ //Set the color for the end (100%)
+ linearGradient.append("stop")
+ .attr("offset", "100%")
+ .attr("stop-color", "#08519c"); //dark blue
+
+ //Draw the rectangle and fill with gradient
+ svg.append("rect")
+     .attr("width", 150)
+     .attr("height", 10)
+     .attr("y", -50)
+     .attr("x", 520)
+     .style("fill", "url(#linear-gradient)");
+
+svg.append("text")
+.attr("class", "deck")
+.attr("x", -35)
+.attr("y", -40)
+.text("By Age")
+
+svg.append("text")
+.attr("class", "rate")
+.attr("x", 520)
+.attr("y", -60)
+.text("Rate per 100,000")
+
+svg.append("text")
+.attr("class", "rate")
+.attr("x", 520)
+.attr("y", -20)
+.text("0")
+
+svg.append("text")
+.attr("class", "rate")
+.attr("x", 650)
+.attr("y", -20)
+.text(74.3)
+
+svg.append("text")
+.attr("class", "value1")
+.attr("x", 25)
+.attr("y", 67)
+.text(30.8)
+
+svg.append("text")
+.attr("class", "value1")
+.attr("x", 25)
+.attr("y",108)
+.text(30.3)
+
+svg.append("text")
+.attr("class", "value1")
+.attr("x", 25)
+.attr("y",148)
+.text(21.5)
+
+
 });
+
 } // end function

@@ -3,6 +3,7 @@ console.log("yo")
 lineMultiplesHigh();
 console.log("multiples")
 lineMultiplesLow();
+// legend();
 heatAges();
 heatRace();
 multiLine();

@@ -150,7 +150,23 @@ figure#heatRace h3.catlabel {
 }
 
 /* Style all labels the same size */
-.labels {
+.labels,
+.rate {
+    font-size: 0.775rem;
+}
+
+.deck {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.value1 {
+    fill: #bde5fc;
+    font-size: 0.775rem;
+}
+
+.value2 {
+    fill: #e9f7ff;
     font-size: 0.775rem;
 }
 

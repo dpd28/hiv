@@ -58,5 +58,24 @@ d3.csv("data/hiv-heatmap-race.csv")
       .attr("height", y.bandwidth() )
       .style("fill", function(d) { return myColor(d.rate)} )
 
+      //! Manual annotation because I have no idea how to do this level of annotation.
+      svg.append("text")
+.attr("class", "value1")
+.attr("x", 25)
+.attr("y", 140)
+.text(73.9)
+
+svg.append("text")
+.attr("class", "value2")
+.attr("x", 25)
+.attr("y",195)
+.text(28.3)
+
+svg.append("text")
+.attr("class", "value1")
+.attr("x", 25)
+.attr("y",248)
+.text(74.3)
+
 });
 } // end function
