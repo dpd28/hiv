@@ -357,7 +357,7 @@ function (_Geomap) {
           hRect = hLegend / steps,
           offsetYFactor = hFactor / hRect;
       var legend = self.svg.append('g').attr('class', 'legend').attr('width', wBox).attr('height', hBox).attr('transform', 'translate(0,' + offsetY + ')');
-      legend.append('rect').style('fill', '#fff').attr('class', 'legend-bg').attr('width', wBox).attr('height', hBox); // Draw a rectangle around the color scale to add a border.
+      // legend.append('rect').style('fill', '#fff').attr('class', 'legend-bg').attr('width', wBox).attr('height', hBox); // Draw a rectangle around the color scale to add a border.
 
       legend.append('rect').attr('class', 'legend-bar').attr('width', wRect).attr('height', hLegend).attr('transform', tr);
       var sg = legend.append('g').attr('transform', tr); // Draw color scale.

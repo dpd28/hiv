@@ -1,9 +1,9 @@
 function heatAges() {
 
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 150, bottom: 20, left: 150},
+var margin = {top: 30, right: 200, bottom: 20, left: 200},
   width = 1072 - margin.left - margin.right,
-  height = 345 - margin.top - margin.bottom;
+  height = 300 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("figure#heatAges")

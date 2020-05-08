@@ -22,7 +22,7 @@
                     ago. Yet for over 1 million people currently
                     living with HIV in the U.S. and the 40,000 new
                     cases each year, HIV/AIDS remains an epidemic.
-                    <strong>The hardest hit region</strong>: The South. Home to a
+                    <strong>The hardest hit region: The South</strong>. Home to a
                     third of Americans the South constitutes more
                     than 52% of new HIV infections. Today, poor
                     people of color in rural areas without healthcare
@@ -38,9 +38,15 @@
                 <h2>The Deep South is the Hardest Hit</h2>
                 <p>More than half of new HIV diagnoses in 2017 are in the Southern U.S. Its scattered geography makes
                     prevention and treatment difficult.</p>
+                <p class="chartNotes">Rates per 100,000</p>
+
             </div>
-            <h2>THIS IS A PLACEHOLDER</h2>
-            <figure id="multiples"></figure>
+            <figure id="multiples1">
+                <h3>States with the Highest Rates of New HIV Diagnoses</h3>
+            </figure>
+            <figure id="multiples2">
+                <h3>States with the Lowest Rates of New HIV Diagnoses</h3>
+            </figure>
         </section>
         <section>
             <div class="text">
@@ -51,8 +57,12 @@
                     rates for women have decreased (5.2) but for Black and Hispanic millennials, rates have increased.
                 </p>
             </div>
-            <figure id="heatAges"></figure>
-            <figure id="heatRace"></figure>
+            <figure id="heatAges">
+                <h3 class="catlabel">By Age</h3>
+            </figure>
+            <figure id="heatRace">
+                <h3 class="catlabel">By Race</h3>
+            </figure>
         </section>
         <section>
             <div class="text">
@@ -62,6 +72,7 @@
                     to the declining spread of HIV in some populations; however, HIV still disproportionally affects
                     gay
                     bisexual men of color.</p>
+                <p class="chartNotes">Rates per 100,000</p>
             </div>
 
             <figure id="multiLine"></figure>
@@ -71,39 +82,51 @@
                 <h2>President Trump's Plan to Eradicate HIV by 2030: Two Policies contradict Goals</h2>
             </div>
             <div class="text">
-                <p> President Trump’s 2019 State of the Union address included a plan to eradicate HIV in ten years. The
+                <p> <strong>President Trump’s 2019 State of the Union address included a plan to eradicate HIV in ten
+                        years.</strong> The
                     Department
                     of Health and Human Services (HHS) has rolled out a plan that targets counties and states, including
                     the
                     District of Columbia and Puerto Rico where HIV incidences are high. Yet, in addition to the daily
                     challenges
                     facing HIV individuals, there are two significant and partisan barriers: </p>
-                <p<strong>Dismantle the Affordable Care Act (ACA)</strong>: Recently, President Trump renewed desire to
+                <p><strong>Dismantle the Affordable Care Act (ACA)</strong>: Recently, President Trump renewed desire to
                     dismantle the ACA,
                     the
                     law
                     that would continue to provide thousands of low-income HIV individuals access to healthcare.</p>
-                    <p><strong>Medicaid Expansion<strong>: Shown below, states hit hard by HIV are primarily the same
-                                states
-                                that declined to
-                                expand
-                                Medicaid. Medicaid is the largest payer of HIV care. Expansion would close the gap and
-                                cover
-                                thousands.
-                    </p>
+                <p><strong>Medicaid Expansion</strong>: Shown below, states hit hard by HIV are primarily the same
+                    states
+                    that declined to
+                    expand
+                    Medicaid. Medicaid is the largest payer of HIV care. Expansion would close the gap and
+                    cover
+                    thousands.
+                </p>
             </div>
             <figure class="d3-geomap" id="mapbottom"></figure>
         </section>
         <section>
             <div class="text methodology">
                 <h3>Methodology</h3>
-                <p>Choropleth maps made possible with <a
-                        href="https://d3-geomap.github.io/map/choropleth/us-states/">geomap</a>. </p>
+                <p>All data was mined and filtered using relatively clean datasets from the sources below with Excel.
+                    Percentages were calculated with data from the U.S. Census Bureau and the CDC.
+                </p>
+                <p>Exploration of charts: Completed with online tools such as Flourish, Data-Illustrator and RawGraphs.
+                    Visual design was done first using Illstrator then implemented online using D3.js.
+                </p>
             </div>
         </section>
     </div><!-- end wrapper -->
     <footer>
-
+        <div class="footer-details">
+            <p>Sources: CDC, U.S. Census Bureau, Kaier Family Foundation, FamiliesUSA, AVERT</p>
+            <p>Design and Development: Deb Pang Davis</p>
+            <p>Choropleth maps made possible with <a href="https://d3-geomap.github.io/map/choropleth/us-states/"
+                    target="_blank">geomap</a>. | <a
+                    href="https://bl.ocks.org/tomshanley/b841837f5414b34b7c45055d97e7674d" target="_blank">Small
+                    multiples</a></p>
+        </div><!-- end footer-details-->
     </footer>
     <!-- pay attention to the order of your js files-->
     <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
@@ -111,8 +134,9 @@
     <script src="https://unpkg.com/topojson@3/dist/topojson.min.js"></script>
     <script src="data/d3-geomap/d3-geomap.js"></script>
     <script src="js/mapUStop.js"></script>
-    <script src="js/mapUSBottom.js"></script>
-    <script src="js/lineMultiples.js"></script>
+    <script src="js/mapUSbottom.js"></script>
+    <script src="js/lineMultiplesHigh.js"></script>
+    <script src="js/lineMultiplesLow.js"></script>
     <script src="js/heatAges.js"></script>
     <script src="js/heatRace.js"></script>
     <script src="js/multiLine.js"></script>

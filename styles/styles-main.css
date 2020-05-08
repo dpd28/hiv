@@ -41,6 +41,11 @@ h1 {
 
 }
 
+h3 {
+    font-size: 1rem;
+}
+
+
 strong {
     font-family: acumin-pro, sans-serif;
     font-weight: 500;
@@ -52,18 +57,20 @@ STYLE THE CONTAINERS
 ------------------------- */
 
 #wrapper {
-    width: 1152px;
+    /* width: 1152px; */
+    width: 1024px;
     margin: auto;
 }
 
 header .text,
 div.text {
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
 div.text.methodology {
-    border-top: 1px solid #000;
+    border-top: 1px solid rgb(175, 175, 175);
+    font-weight: 200;
 }
 
 section {
@@ -84,12 +91,16 @@ header .text p.drop:first-letter {
     font-family: acumin-pro-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 6em;
+    font-size: 7.25em;
     font-style: normal;
     float: left;
-    margin: 14px 0px 0px 0px;
+    margin: 14px 0px 0px -5px;
     line-height: 0.7;
     color: #111111;
+}
+
+p.chartNotes {
+    font-size: 0.85rem;
 }
 
 /* .x_axis line {
@@ -103,16 +114,81 @@ header .text p.drop:first-letter {
     shape-rendering: crispEdges;
 }
 
+/* removes the second set of axis lines when creating gridlines */
+
 .x_axis path {
     stroke-width: 0;
 }
 
+/* ADD  the y axis back in if not adding value annotations */
+/* .y_axis path {
+    stroke: rgb(160, 160, 160);
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+} */
+
+/* Use this to hide the yaxis 1st line. To show, set to "1" */
+.y_axis path {
+    stroke-width: 0px;
+}
+
+/* Use this to hide labels on yaxis */
 .y_axis text {
     display: none;
 }
 
+/* Hide the axis labels for the first heatmap */
+figure#heatAges .x_axis text {
+    display: none;
+}
+
+figure#heatAges h3.catlabel,
+figure#heatRace h3.catlabel {
+    text-align: left;
+    width: 65%;
+    margin: auto;
+}
+
+/* Style all labels the same size */
 .labels {
-    font-size: 0.7rem;
+    font-size: 0.775rem;
+}
+
+/* --- Add padding to the top of charts --- */
+
+figure#multiLine,
+figure#multiples1 {
+    padding-top: 2rem;
+
+}
+
+/* --- Style the small multiples ---- */
+
+figure#multiples1,
+figure#multiples2 {
+    width: 75%;
+    margin: auto;
+}
+
+.line {
+    fill: none;
+    stroke: #08519c;
+    stroke-width: 1.5px;
+}
+
+g#xAxisG text,
+g#yAxisG text {
+    stroke: none;
+    fill: rgb(38, 38, 38);
+    font-size: 9px;
+}
+
+.lenny {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* ----------------------
@@ -120,9 +196,28 @@ STYLE THE FOOTER
 ------------------------- */
 footer {
     width: 100%;
-    background-color: rgb(0, 90, 126);
+    background-color: rgb(28, 28, 28);
+    padding: 2rem 0 5rem 0;
 }
 
-footer p {
+footer .footer-details {
+    width: 1024px;
+    margin: auto;
+}
+
+footer .footer-details p {
     font-size: 0.7rem;
+    font-weight: 200;
+    color: #eee;
+    text-align: center;
+}
+
+
+footer .footer-details p a {
+    color: #eee;
+}
+
+footer .footer-details p a:hover {
+    color: #eee;
+    text-decoration: none;
 }

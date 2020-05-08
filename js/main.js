@@ -1,7 +1,8 @@
 mapTop();
 console.log("yo")
-lineMultiples();
+lineMultiplesHigh();
 console.log("multiples")
+lineMultiplesLow();
 heatAges();
 heatRace();
 multiLine();

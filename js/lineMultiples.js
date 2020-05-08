@@ -1,3 +1,5 @@
+// ! GET RID OF THIS ONE DEB BECAUSE YOU ARE USING LINEMULTIPLES2.JS
+
 function lineMultiples() { // object has curly braces, brackets are arrays
 
 // set the dimensions and margins of the graph
